@@ -2,6 +2,7 @@ package org.cmc3.ouyangleiluo.tests.homework;
 
 import com.github.sh0nk.matplotlib4j.PythonExecutionException;
 import org.cmc3.ouyangleiluo.Global;
+import org.cmc3.ouyangleiluo.dataframe.Function;
 import org.cmc3.ouyangleiluo.utils.*;
 
 import java.io.IOException;

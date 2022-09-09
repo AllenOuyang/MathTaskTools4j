@@ -1,6 +1,7 @@
 package org.cmc3.ouyangleiluo.utils;
 
 import lombok.experimental.UtilityClass;
+import org.cmc3.ouyangleiluo.dataframe.Function;
 
 /**
  * IntegralUtil is a utility class that provide some method to
@@ -24,7 +25,7 @@ public class IntegralUtil {
      * @param eps   required precision
      * @return      integral result
      */
-    public double integral(final Function f, final double a, final double b, final double eps) {
+    public static double integral(final Function f, final double a, final double b, final double eps) {
         double width = b - a;
         double sumNew = width * (f.getValue(a) + f.getValue(b)) / 2;
         double sumOld = 0;

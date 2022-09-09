@@ -5,8 +5,8 @@ import com.github.sh0nk.matplotlib4j.Plot;
 import com.github.sh0nk.matplotlib4j.PythonConfig;
 import com.github.sh0nk.matplotlib4j.PythonExecutionException;
 import lombok.experimental.UtilityClass;
+import org.cmc3.ouyangleiluo.dataframe.Function;
 import org.jetbrains.annotations.NotNull;
-import org.testng.internal.collections.Pair;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ import java.util.List;
  */
 @UtilityClass
 public class PlotUtil {
-    private static final String pythonBinPath = "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3";
+    private static final String pythonBinPath = "/Users/allenouyang/opt/miniconda3/envs/math_task_tool/bin/python3";
 
     /**
      * getValues can get a list of function values of arguments X by using f

@@ -20,6 +20,7 @@ public class ShowerFactory {
     public HomeworkShower buildShower(int homeworkId) throws ShowerBuildException {
         switch (homeworkId) {
             case 1 : return new HomeworkShower1();
+            case 2 : return new HomeworkShower2();
             default:
                 throw new ShowerBuildException("homeworkId not found");
         }
